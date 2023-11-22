@@ -17,11 +17,27 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  min-height: 100vh;
+  display: flex;
+  /*  color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+.image-container {
+
+  width: 100%;
+}
+
+
+.image-container>div {
+  position: unset !important;
+}
+
+.image-container img {
+  position: relative !important;
 }
